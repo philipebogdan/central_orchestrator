@@ -1,21 +1,12 @@
 <manifest>
-  <remote name="vagrant"
-          fetch="https://github.com/philipebogdan/VagrantRELK.git"/>
-  <default revision="refs/heads/master"
-          remote="vagrant"
-          sync-j="4"/>
+  <remote name="vagrant" fetch="https://github.com/philipebogdan/VagrantRELK.git"/>
+  <default revision="refs/heads/master" remote="vagrant" sync-j="4"/>
           
-  <remote name="maven_suite"
-          fetch="https://github.com/philipebogdan/Maven_suite.git"/>
-  <default revision="refs/heads/master"
-          remote="maven_suite"
-          sync-j="4"/>
+  <remote name="maven_suite" fetch="https://github.com/philipebogdan/Maven_suite.git"/>
+  <default revision="refs/heads/master" remote="maven_suite" sync-j="4"/>
           
-  <remote name="cirrus"
-          fetch="https://github.com/philipebogdan/cirrus.git"/>
-  <default revision="refs/heads/master"
-          remote="cirrus"
-          sync-j="4"/>
+  <remote name="cirrus" fetch="https://github.com/philipebogdan/cirrus.git"/> 
+  <default revision="refs/heads/master" remote="cirrus" sync-j="4"/>
 
   <project name="VagrantRELK" remote="vagrant" path="vagrant"/>
   <project name="Maven_suite" remote="maven_suite" path="maven"/>
